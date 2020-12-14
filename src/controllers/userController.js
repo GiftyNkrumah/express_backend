@@ -83,7 +83,7 @@ userCtrl.deleteUser = async(req, res) => {
     try{
         let person = await User.findOneAndDelete({_id: req.params.id})
         res.status(200).send({message: 'user deported to mars'})
-    } catch {
+    } catch (error) {
         const warnings = handleError(error)
         res.status(400).json({warnings})
     }
