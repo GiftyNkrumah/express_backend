@@ -1,0 +1,4 @@
+Username: gifty
+Password: yInq4g6UFjB8X4Je
+
+Database connection: mongodb+srv://gifty:<password>@cluster0.low86.mongodb.net/<dbname>
